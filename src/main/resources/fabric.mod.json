@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "rapsolsprint",
+	"version": "${version}",
+	"name": "RapsolSprint",
+	"description": "I allow you to sprint without having to press or hold down the sprint button :P",
+	"authors": [
+		"Rapsol9398"
+	],
+	"contact": {
+		"TikTik": "https://www.tiktok.com/@rapsol9398",
+		"Discord": "https://discord.gg/zk7BKYAhhb"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rapsolsprint/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.rapsol.RapsolSprint"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
